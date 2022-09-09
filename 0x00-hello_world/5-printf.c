@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- *  * main - prints the phrase with proper grammar,
- *   * but the outcome is a piece of art,
- *    * Return: 0 if exited properly, non-zero otherwise
+ * Description: main prints out a string to stdout
+ * Return: 0 if sucess.
  *     */
 int main(void)
 {
