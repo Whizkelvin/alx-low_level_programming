@@ -1,20 +1,19 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
- *	main - Prints the numbers since 0 to 9
+ *	main - Entry point
  *
- *	Return: Always (Success)
+ *	 Return: Always 0 (Success)
  */
 int main(void)
 {
-		char n;
-
-					for (n = '0'; n <= '9'; n++)
-					{
-								putchar(n);
-									}
-
-				putchar('\n');
-
-					return (0);
+	int c;
+	for (c = 0; c <= 9; c++)
+	{
+			printf("%d", c);
+	}
+	putchar('\n');
+	return (0);
 }
