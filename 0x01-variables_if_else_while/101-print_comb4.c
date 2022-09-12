@@ -17,12 +17,16 @@ for (i = 0; i < 1000 ; i++)
 		if (((i / 10) % 10) > (i / 100) && ((i / 10) % 10) != (i / 100))
 		{
 			putchar((i / 100) + '0');
-			putchar(((i / 10) % 10) + '0');									 putchar((i % 10) + '0');
-														  if (i < 788)
-														  {
-														  putchar(',');
-		 putchar(' ');											  }
-		 else												  putchar('\n');										   }
+			putchar(((i / 10) % 10) + '0');
+			putchar((i % 10) + '0');
+																								if (i < 788)
+																								{
+																								putchar(',');
+																								putchar(' ');
+																								}
+																								else
+																								putchar('\n');
+																								}
 }
 return (0);
 }
