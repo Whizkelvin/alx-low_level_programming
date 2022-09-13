@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- *   main -  prints _putchar, followed by a new line
+ *   main -  prints putchar
  *    Return: Always 0 (Success)
  */
 int main(void)
 {
 		_putchar('_');
 		_putchar('p');
-		_putchar('u');
+		iputchar('u');
 		_putchar('t');
 		_putchar('c');
 		_putchar('h');
