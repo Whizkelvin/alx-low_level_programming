@@ -1,1 +1,1 @@
-unction that prints half of a string, followed by a new line.
+function that convert a string to an integer.
