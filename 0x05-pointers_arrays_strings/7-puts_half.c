@@ -1,25 +1,3 @@
-Task 7.txt
-Who has access
-A
-System properties
-Type
-Text
-Size
-500 bytes
-Storage used
-500 bytes
-Location
-pointers arrays and strings
-Owner
-Antony Bahati
-Modified
-Sep 19, 2022 by Antony Bahati
-Opened
-6:16 PM by me
-Created
-Sep 19, 2022
-No description
-Viewers can download
 #include <stdio.h>
 #include "main.h"
 
